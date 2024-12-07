@@ -1,0 +1,369 @@
+diff --color -ruN label/FMLD_annotations/train/train_00001314.xml label/FMLD_annotations/train/train_00001314.xml
+--- label/FMLD_annotations/train/train_00001314.xml	2021-02-17 15:52:34.000000000 +0700
++++ label/FMLD_annotations/train/train_00001314.xml	2024-12-05 23:54:35.039656261 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00001389.xml label/FMLD_annotations/train/train_00001389.xml
+--- label/FMLD_annotations/train/train_00001389.xml	2021-02-17 15:52:34.000000000 +0700
++++ label/FMLD_annotations/train/train_00001389.xml	2024-12-05 23:55:27.328574794 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>unmasked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00001906.xml label/FMLD_annotations/train/train_00001906.xml
+--- label/FMLD_annotations/train/train_00001906.xml	2021-02-17 15:52:34.000000000 +0700
++++ label/FMLD_annotations/train/train_00001906.xml	2024-12-06 00:21:16.122117981 +0700
+@@ -25,8 +25,9 @@
+ 			<ymax>616.0</ymax>
+ 		</bndbox>
+ 	</object>
++	<!--
+ 	<object>
+-		<name>masked_face</name>
++		<name>unmasked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+@@ -38,9 +39,10 @@
+ 			<xmax>445.0</xmax>
+ 			<ymax>585.0</ymax>
+ 		</bndbox>
+-	</object>
++	</object> -->
++	<!--
+ 	<object>
+-		<name>masked_face</name>
++		<name>unmasked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+@@ -52,5 +54,5 @@
+ 			<xmax>475.0</xmax>
+ 			<ymax>499.0</ymax>
+ 		</bndbox>
+-	</object>
++	</object> -->
+ </annotation>
+diff --color -ruN label/FMLD_annotations/train/train_00002018.xml label/FMLD_annotations/train/train_00002018.xml
+--- label/FMLD_annotations/train/train_00002018.xml	2021-02-17 15:52:34.000000000 +0700
++++ label/FMLD_annotations/train/train_00002018.xml	2024-12-05 23:57:16.666551691 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00002019.xml label/FMLD_annotations/train/train_00002019.xml
+--- label/FMLD_annotations/train/train_00002019.xml	2021-02-17 15:52:34.000000000 +0700
++++ label/FMLD_annotations/train/train_00002019.xml	2024-12-05 23:57:54.256921537 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00002031.xml label/FMLD_annotations/train/train_00002031.xml
+--- label/FMLD_annotations/train/train_00002031.xml	2021-02-17 15:52:34.000000000 +0700
++++ label/FMLD_annotations/train/train_00002031.xml	2024-12-06 01:03:36.402017705 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+@@ -26,7 +26,7 @@
+ 		</bndbox>
+ 	</object>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+@@ -40,7 +40,7 @@
+ 		</bndbox>
+ 	</object>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00002067.xml label/FMLD_annotations/train/train_00002067.xml
+--- label/FMLD_annotations/train/train_00002067.xml	2021-02-17 15:52:34.000000000 +0700
++++ label/FMLD_annotations/train/train_00002067.xml	2024-12-06 00:00:25.832660347 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00002072.xml label/FMLD_annotations/train/train_00002072.xml
+--- label/FMLD_annotations/train/train_00002072.xml	2021-02-17 15:52:34.000000000 +0700
++++ label/FMLD_annotations/train/train_00002072.xml	2024-12-06 00:01:36.060741179 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00002073.xml label/FMLD_annotations/train/train_00002073.xml
+--- label/FMLD_annotations/train/train_00002073.xml	2021-02-17 15:52:34.000000000 +0700
++++ label/FMLD_annotations/train/train_00002073.xml	2024-12-06 00:02:01.120429904 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00002169.xml label/FMLD_annotations/train/train_00002169.xml
+--- label/FMLD_annotations/train/train_00002169.xml	2021-02-17 15:52:36.000000000 +0700
++++ label/FMLD_annotations/train/train_00002169.xml	2024-12-06 00:02:24.021152559 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00002677.xml label/FMLD_annotations/train/train_00002677.xml
+--- label/FMLD_annotations/train/train_00002677.xml	2021-02-17 15:52:36.000000000 +0700
++++ label/FMLD_annotations/train/train_00002677.xml	2024-12-06 00:03:19.452507548 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00005008.xml label/FMLD_annotations/train/train_00005008.xml
+--- label/FMLD_annotations/train/train_00005008.xml	2021-02-17 15:52:42.000000000 +0700
++++ label/FMLD_annotations/train/train_00005008.xml	2024-12-06 19:40:26.364173713 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>incorrectly_masked_face</name>
++		<name>unmasked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00008218.xml label/FMLD_annotations/train/train_00008218.xml
+--- label/FMLD_annotations/train/train_00008218.xml	2021-02-17 15:52:50.000000000 +0700
++++ label/FMLD_annotations/train/train_00008218.xml	2024-12-06 19:48:33.826864307 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00008345.xml label/FMLD_annotations/train/train_00008345.xml
+--- label/FMLD_annotations/train/train_00008345.xml	2021-02-17 15:52:50.000000000 +0700
++++ label/FMLD_annotations/train/train_00008345.xml	2024-12-06 19:42:51.023442003 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>incorrectly_masked_face</name>
++		<name>unmasked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00008584.xml label/FMLD_annotations/train/train_00008584.xml
+--- label/FMLD_annotations/train/train_00008584.xml	2021-02-17 15:52:50.000000000 +0700
++++ label/FMLD_annotations/train/train_00008584.xml	2024-12-06 19:49:30.490768439 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>unmasked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00009365.xml label/FMLD_annotations/train/train_00009365.xml
+--- label/FMLD_annotations/train/train_00009365.xml	2021-02-17 15:52:52.000000000 +0700
++++ label/FMLD_annotations/train/train_00009365.xml	2024-12-06 19:50:00.698815451 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00010317.xml label/FMLD_annotations/train/train_00010317.xml
+--- label/FMLD_annotations/train/train_00010317.xml	2021-02-17 15:52:54.000000000 +0700
++++ label/FMLD_annotations/train/train_00010317.xml	2024-12-06 19:50:33.353968603 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00012274.xml label/FMLD_annotations/train/train_00012274.xml
+--- label/FMLD_annotations/train/train_00012274.xml	2021-02-17 15:53:00.000000000 +0700
++++ label/FMLD_annotations/train/train_00012274.xml	2024-12-06 19:53:06.288594140 +0700
+@@ -11,7 +11,7 @@
+ 		<depth>3</depth>
+ 	</size>
+ 	<segmented>0</segmented>
+-	<object>
++	<!--<object>
+ 		<name>masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+@@ -24,5 +24,5 @@
+ 			<xmax>518.0</xmax>
+ 			<ymax>330.0</ymax>
+ 		</bndbox>
+-	</object>
++	</object> -->
+ </annotation>
+diff --color -ruN label/FMLD_annotations/train/train_00012614.xml label/FMLD_annotations/train/train_00012614.xml
+--- label/FMLD_annotations/train/train_00012614.xml	2021-02-17 15:53:00.000000000 +0700
++++ label/FMLD_annotations/train/train_00012614.xml	2024-12-06 19:53:37.174764198 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>incorrectly_masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00012748.xml label/FMLD_annotations/train/train_00012748.xml
+--- label/FMLD_annotations/train/train_00012748.xml	2021-02-17 15:53:00.000000000 +0700
++++ label/FMLD_annotations/train/train_00012748.xml	2024-12-06 20:00:13.281418180 +0700
+@@ -11,7 +11,7 @@
+ 		<depth>3</depth>
+ 	</size>
+ 	<segmented>0</segmented>
+-	<object>
++	<!--<object>
+ 		<name>masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+@@ -23,6 +23,6 @@
+ 			<ymin>168.0</ymin>
+ 			<xmax>342.0</xmax>
+ 			<ymax>482.0</ymax>
+-		</bndbox>
+-	</object>
++		</bndbox>  
++	</object> -->
+ </annotation>
+diff --color -ruN label/FMLD_annotations/train/train_00013380.xml label/FMLD_annotations/train/train_00013380.xml
+--- label/FMLD_annotations/train/train_00013380.xml	2021-02-17 15:53:02.000000000 +0700
++++ label/FMLD_annotations/train/train_00013380.xml	2024-12-06 20:00:04.658448831 +0700
+@@ -11,7 +11,7 @@
+ 		<depth>3</depth>
+ 	</size>
+ 	<segmented>0</segmented>
+-	<object>
++	<!-- <object>
+ 		<name>masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+@@ -23,6 +23,6 @@
+ 			<ymin>118.0</ymin>
+ 			<xmax>467.0</xmax>
+ 			<ymax>283.0</ymax>
+-		</bndbox>
+-	</object>
++		</bndbox>  
++	</object> -->
+ </annotation>
+diff --color -ruN label/FMLD_annotations/train/train_00014917.xml label/FMLD_annotations/train/train_00014917.xml
+--- label/FMLD_annotations/train/train_00014917.xml	2021-02-17 15:53:06.000000000 +0700
++++ label/FMLD_annotations/train/train_00014917.xml	2024-12-06 00:46:24.991553915 +0700
+@@ -12,7 +12,7 @@
+ 	</size>
+ 	<segmented>0</segmented>
+ 	<object>
+-		<name>masked_face</name>
++		<name>unmasked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+ 		<pose>unspecified</pose>
+diff --color -ruN label/FMLD_annotations/train/train_00015180.xml label/FMLD_annotations/train/train_00015180.xml
+--- label/FMLD_annotations/train/train_00015180.xml	2021-02-17 15:53:06.000000000 +0700
++++ label/FMLD_annotations/train/train_00015180.xml	2024-12-06 19:59:57.774298607 +0700
+@@ -11,7 +11,7 @@
+ 		<depth>3</depth>
+ 	</size>
+ 	<segmented>0</segmented>
+-	<object>
++	<!--<object>
+ 		<name>masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+@@ -23,6 +23,6 @@
+ 			<ymin>79.0</ymin>
+ 			<xmax>345.0</xmax>
+ 			<ymax>248.0</ymax>
+-		</bndbox>
+-	</object>
++		</bndbox> 
++	</object> -->
+ </annotation>
+diff --color -ruN label/FMLD_annotations/train/train_00020527.xml label/FMLD_annotations/train/train_00020527.xml
+--- label/FMLD_annotations/train/train_00020527.xml	2021-02-17 15:53:20.000000000 +0700
++++ label/FMLD_annotations/train/train_00020527.xml	2024-12-06 19:59:51.011157426 +0700
+@@ -11,7 +11,7 @@
+ 		<depth>3</depth>
+ 	</size>
+ 	<segmented>0</segmented>
+-	<object>
++	<!--<object>
+ 		<name>masked_face</name>
+ 		<gender>unspecified</gender>
+ 		<ethnicity>unspecified</ethnicity>
+@@ -24,5 +24,5 @@
+ 			<xmax>1004.0</xmax>
+ 			<ymax>576.0</ymax>
+ 		</bndbox>
+-	</object>
++	</object> -->
+ </annotation>
